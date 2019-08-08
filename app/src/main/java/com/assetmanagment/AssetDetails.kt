@@ -22,7 +22,8 @@ class AssetDetails : AppCompatActivity() {
         "Mansoor",
         "Bharath",
         "Yazhini",
-        "Pranav"
+        "Pranav",
+        "velmurgan"
     )
     val description = arrayOf<String>(
         "C programming is considered as the base for other programming languages",
