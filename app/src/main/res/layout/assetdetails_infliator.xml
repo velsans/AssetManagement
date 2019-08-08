@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_width="50dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp"
+                android:src="@mipmap/asset_logo"/>
+
+        <TextView
+                android:id="@+id/assetName"
+                android:layout_width="match_parent"
+                android:text="VelMurugan"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+
+        <TextView
+                android:id="@+id/fromDate"
+                android:layout_width="match_parent"
+                android:text="22-Aug-2019"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+
+        <TextView
+                android:id="@+id/ToDate"
+                android:layout_width="match_parent"
+                android:text="22-July-2019"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+
+        <TextView
+                android:id="@+id/HowmanyTimes"
+                android:layout_width="match_parent"
+                android:text="1"
+                android:textStyle="bold"
+                android:layout_weight="1.1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
